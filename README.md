@@ -3,7 +3,10 @@
 A personal Retrieval-Augmented Generation (RAG) system built to turn a large collection of B.Tech course material into a searchable, question-answering knowledge base.
 
 The system processes textbooks, lecture notes, scanned PDFs, assignments, and other academic material using PDF extraction, OCR, semantic embeddings, hybrid retrieval, FAISS, TF-IDF, and Gemini.
-
+> **Note:** The `processed/` directory contains generated RAG artifacts
+> such as chunks, embeddings, FAISS indexes, TF-IDF indexes, and OCR output.
+> These files are excluded from Git because they can be regenerated using
+> the provided preprocessing scripts.
 ---
       B.Tech Course Material
                              │
